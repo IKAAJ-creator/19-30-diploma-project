@@ -34,7 +34,8 @@
           </ul>
           <form class="d-flex" role="search">
             <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
-            <button class="btn btn-outline-light" type="submit">Search</button>
+            <a href="{{url_for('mem')}}" class="btn btn-outline-light">Search</a>
+            
           </form>
         </div>
       </div>
@@ -49,7 +50,7 @@
         <div class="card-body">
           <h5 class="card-title">Card title</h5>
           <p class="card-text">Types of cats and cats and their disadvantages.</p>
-          <a href="{{url_for('dogs')}}" class="btn btn-primary">Go to card</a>
+          <a href="{{url_for('cats')}}" class="btn btn-primary">Information about cats</a>
         </div>
       </div>
 
@@ -58,7 +59,7 @@
         <div class="card-body">
           <h5 class="card-title">Card title</h5>
           <p class="card-text">Dog breeds that require a lot of attention and care.</p>
-          <a href="{{url_for('dogs')}}" class="btn btn-primary">Go to card</a>
+          <a href="{{url_for('dogs')}}" class="btn btn-primary">Information about dogs</a>
         </div>
       </div>
 
@@ -67,7 +68,7 @@
           <div class="card-body">
             <h5 class="card-title">Card title</h5>
             <p class="card-text">Types of parrots and their disadvantages.</p>
-            <a href="#" class="btn btn-primary">Go to card</a>
+            <a href="{{url_for('parrot')}}" class="btn btn-primary">Information about parrots</a>
           </div>
         </div>
 
@@ -76,7 +77,7 @@
           <div class="card-body">
             <h5 class="card-title">Card title</h5>
             <p class="card-text">Types of rabbits and their disadvantages.</p>
-            <a href="#" class="btn btn-primary">Go to card</a>
+            <a href="{{url_for('rrabit')}}" class="btn btn-primary">Information about rabbits</a>
           </div>
         </div>
 

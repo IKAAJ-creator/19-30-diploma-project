@@ -10,6 +10,17 @@ def index():
 def dogs():
     return render_template("dogs.html", title="Информация о собаках")
 
+@app.route("/cats")
+def cats():
+    return render_template("cats.html", title="Информация о котах")
+
+@app.route("/parrot")
+def parrot():
+    return render_template("parrot.html", title="Информация не о котах")
+
+@app.route("/rrabit")
+def rrabit():
+    return render_template("rrabit.html", title="Информация не о китайцах")
 
 @app.route("/Features")
 def Features():
@@ -20,7 +31,17 @@ def Features():
 def About():
     return render_template("About.html", title="Регестрация")
 
+@app.route("/mem")
+def mem():
+    return render_template("mem.html", title="Пасхалочка1")
 
+@app.route("/Andr")
+def Andr():
+    return render_template("Andr.html", title="Пасхалочка2")
+
+@app.route("/NNM")
+def NNM():
+    return render_template("NNM.html", title="Пасхалочка4")
 
 
 
