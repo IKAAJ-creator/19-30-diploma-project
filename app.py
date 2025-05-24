@@ -43,6 +43,10 @@ def Andr():
 def NNM():
     return render_template("NNM.html", title="joke4")
 
+@app.route("/spanio")
+def spanio():
+    return render_template("spanio.html", title="joke5")
+
 
 
 app.run(debug=True)
